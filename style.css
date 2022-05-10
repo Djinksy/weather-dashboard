@@ -1,0 +1,17 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+h1 {
+    text-align: center;
+    background-color: blue;
+    padding-top: 10px;
+}
+
+.today-card {
+    padding-right: 400px;
+    width: 320px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 0;
+}
