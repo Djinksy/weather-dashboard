@@ -2,11 +2,9 @@
 
 ![Github](https://img.shields.io/badge/license-MIT-yellow.svg)
 
-### Live URL: 
+### Live URL: https://djinksy.github.io/weather-dashboard/
 
-![screenshot-1]
-
-![screenshot-2]
+![screenshot-1](./images/screenshot.png)
 
 
 ## User Story 
