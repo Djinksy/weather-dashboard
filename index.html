@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <header>
+        <p>Weather Dashboard</p>
+    </header>
+    <main>
+        <aside class="side-bar">
+            <form class="search-container" action="#">
+                <h1>Search For A City:</h1>
+                <input id="search-text" type="text" placeholder="Input City Name">
+                <button id="search-btn"> Search </button>
+            </form>
+            <div id="prev-searches">
+
+            </div>
+        </aside>
+        <section class="current-results">
+            <div class="main-results">
+                <h1><span id="search-city-name"></span><span id="current-day"></span><span id="weather-icon"></span></h1>
+                <p>Temperature: <span id="temperature"></span></p>
+                <p>Wind: <span id="wind"></span></p>
+                <p>Humidity: <span id="humidity"></span></p>
+                <p>UV Index: <span id="uvIndex"></span></p>
+            </div>
+            <div id="future-forecast">
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
